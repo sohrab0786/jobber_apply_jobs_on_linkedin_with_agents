@@ -1,22 +1,22 @@
 Personal Info:
-First Name: Nischal
-Last Name: Jain
-Date of birth: 
+First Name: Md Sohrab Akhtar
+Last Name: Emam
+Date of birth: 31-03-1999
 Pronouns: He/Him
 
 Email: 
 Expeted Salary: 5000000
-Occupation: Data Engineer
-Address: Indiranagr, Bengaluru
+Occupation: Machine Learning Engineer
+Address: Darbhanga, Bihar
 Phone Number: 
-LinkedIn - https://linkedin.com/in/nischalj10
+LinkedIn - https://linkedin.com/in/sohrabemam
 
 
 Here are some of my preferences:
 Shopping Preferences: www.amazon.com
-Favorite news source: www.thehindu.com
+Favorite news source: https://timesofindia.indiatimes.com/
 Favorite flight booking site to use with every flight related query: https://www.google.com/travel/flightsno
-Resume File to Upload Path = /Users/namanjain/Downloads/DummyResume.pdf
+Resume File to Upload Path = C:/Users/sohra/Downloads/my_resume/SohrabResumeLatex (3).pdf
 My best project - checkout headless-ollama on google
 
 

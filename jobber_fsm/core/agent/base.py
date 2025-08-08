@@ -5,14 +5,16 @@ import litellm
 import openai
 from langsmith.wrappers import wrap_openai
 from pydantic import BaseModel
-
-
+from dotenv import load_dotenv
+load_dotenv()
+import os
+api_key = os.getenv("OPENAI_API_KEY")
 from jobber_fsm.utils.function_utils import get_function_schema
 from jobber_fsm.utils.logger import logger
 
 # Set global configurations for litellm
 litellm.logging = False
-litellm.success_callback = ["langsmith"]
+#litellm.success_callback = ["langsmith"]
 
 
 class BaseAgent:
@@ -38,7 +40,7 @@ class BaseAgent:
         self.output_format = output_format
 
         # Llm client
-        self.client = wrap_openai(openai.Client())
+        self.client = wrap_openai(openai.Client(api_key=api_key))
         # TODO: use lite llm here.
         # self.llm_config = {"model": "gpt-4o-2024-08-06"}
 

@@ -1,0 +1,5 @@
+Project jobber, apply linkedin jobs and other via agents 
+
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\chrome_debug_temp" 
+
+python -u -m jobber_fsm
