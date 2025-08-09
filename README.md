@@ -19,7 +19,7 @@ the `jobber_fsm` folder contains another approach based on [finite state machine
 the downside of fsm agent is that it is dependent on [structured output](https://openai.com/index/introducing-structured-outputs-in-the-api/) from open ai. so you can't reliably use cheaper models like gpt4o-mini or other oss models which is possible in `jobber`
 
 ### setup
-
+Clone this repository, then move to cloned directory.
 1. we recommend installing poetry before proceeding with the next steps. you can install poetry using these [instructions](https://python-poetry.org/docs/#installation)
 
 2. install dependencies
